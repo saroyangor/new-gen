@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 import logo from '../assets/logo.png';
@@ -26,7 +26,9 @@ const Header = (): JSX.Element => {
 
 	return (
 		<header className="py-6 flex justify-between items-center container max-w-[1216px] mx-auto">
-			<img src={logo} alt="Logo" />
+			<Link to="/">
+				<img src={logo} alt="Logo" />
+			</Link>
 
 			<nav>
 				<ul className="flex items-center gap-16">
