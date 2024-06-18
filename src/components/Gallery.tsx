@@ -29,7 +29,7 @@ const Gallery = (): JSX.Element => {
 
 	return (
 		<article className="my-16">
-			<h2 className="font-semibold text-[40px] mb-16">Gallery</h2>
+			<h2 className="font-semibold text-[40px] mb-16">{t('Gallery')}</h2>
 
 			<div className="flex gap-6 flex-wrap">
 				{gallery.map((g) => (

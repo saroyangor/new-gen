@@ -5,7 +5,7 @@ const texts = [
 	{
 		id: 1,
 		title:
-			'Our vision is to make the cultural life of Armenia more colorful and active by organizing unique and different projects.',
+			'✨Our vision is to make the cultural life of Armenia more colorful and active by organizing unique and different projects.',
 	},
 	{
 		id: 2,
@@ -15,12 +15,12 @@ const texts = [
 	{
 		id: 3,
 		title:
-			'The main goal of "NEW GENERATION" project is to make the cultural life of Armenia even more colorful and active by organizing unique concerts.',
+			'The main goal of the "NEW GENERATION" project is to make the cultural life of Armenia even more colorful and active by organizing unique concerts.',
 	},
 	{
 		id: 4,
 		title:
-			'At the upcoming projects, we will host famous, recognized and loved artists, promoting the development of culture, why not providing positive energy and unforgettable moments. The projects will be diverse and unrepeated. Well, stay tuned for information about our upcoming concerts.',
+			'🎶At the upcoming projects, we will host famous, recognized and loved artists, promoting the development of culture, why not providing positive energy and unforgettable moments. The projects will be diverse and unrepeated.',
 	},
 ];
 
@@ -32,7 +32,7 @@ const About = (): JSX.Element => {
 
 			<article className="flex gap-6">
 				<div className="flex flex-col gap-4">
-					<h3 className="font-semibold text-2xl">{t('Welcome to NEW GENERATION!')}</h3>
+					<h3 className="font-semibold text-2xl">{t('🆕Welcome to NEW GENERATION PROJECT!')}</h3>
 
 					{texts.map((text) => (
 						<p key={text.id} className="text-2xl">

@@ -13,7 +13,7 @@ const Event = ({ image, title, bodyEng, bodyArm }: IEventProps): JSX.Element => 
 
 	return (
 		<article className="flex gap-8 p-6 border border-black items-center">
-			<img src={image} alt={title} />
+			<img src={image} alt={title} width={320} />
 			<div className="flex flex-col gap-6 items-start">
 				<h3 className="font-medium text-[32px]">{t(title)}</h3>
 				<div className="flex flex-col gap-4">{i18next.language === 'eng' ? bodyEng : bodyArm}</div>

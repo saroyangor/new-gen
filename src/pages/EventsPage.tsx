@@ -1,87 +1,55 @@
 import { useTranslation } from 'react-i18next';
 
 import Event from '../components/Event.tsx';
-import event1 from '../assets/event1.png';
+import event1 from '../assets/event1.jpg';
 import event2 from '../assets/event2.png';
-import event3 from '../assets/event3.png';
+import event3 from '../assets/event3.jpg';
 
 const events = [
 	{
 		image: event1,
-		title: 'Charles Aznavour 100',
+		title: 'Queen Sensation',
 		bodyEng: (
 			<>
+				<p>"Queen Sensation" is the real tribute of the world-renowned "Queen" band.</p>
 				<p>
-					Jubilee concert dedicated to the world Armenian
-					<br />
-					On June 8 at Aram Khachaturian Concert Hall will be presented "CHARLES AZNAVOUR 100"
-					concert dedicated to the great chansonnier.
+					And the first time, the show will continue in Armenia <b>on July 19 at 19:30</b> at the
+					Demirchyan Sports and Concert Complex.
 				</p>
-				<p>
-					<b>Soloist:</b> Ghassan Yammine
-				</p>
-				<p>
-					<b>Pop-Symphonic Orchestra of the Public Radio of RA:</b> Artistic Director, People's
-					Artist of RA Yervand Yerznkyan
-				</p>
+				<p>Don't miss the chance to be a part of an unforgettable concert!</p>
+				<a href="tel:+37495344305" className="w-fit">
+					📲 095 344 304
+				</a>
 			</>
 		),
 		bodyArm: (
 			<>
 				<p>
-					Համաշխարհային հայությանը նվիրված հոբելյանական համերգ
-					<br />
-					Հունիսի 8-ին Արամ Խաչատրյան համերգասրահում տեղի կունենա «ՇԱՐԼ ԱԶՆԱՎՈՒՐ 100» համերգը՝
-					նվիրված մեծ շանսոնյեին։
+					"Queen Sensation"-ը աշխարհահռչակ Queen խմբի երգերի լավագույն մատուցողն ու ավանդույթները
+					շարունակողն է։
 				</p>
 				<p>
-					<b>Մենակատար՝</b> Ղասսան Յամմին
+					Ու այս անգամ Շոուն շարունակվելու է ԱՌԱՋԻՆ ԱՆԳԱՄ Հայաստանում{' '}
+					<b>հուլիսի 19-ին՝ ժամը 19:30-ին</b> Կարեն Դեմիրճյանի անվան մարզահամերգային համալիրում։
 				</p>
-				<p>
-					<b>ՀՀ Հանրային ռադիոյի էստրադային սիմֆոնիկ նվագախումբ՝</b> գեղարվեստական ղեկավար, ՀՀ
-					ժողովրդական արտիստ Երվանդ Երզնկյան
-				</p>
+				<p>Բաց չթողնեք բացառիկ համերգին նեկա լինելու հնարավորությունը:</p>
+				<a href="tel:+37495344305" className="w-fit">
+					📲 095 344 304
+				</a>
 			</>
 		),
 	},
 	{
 		image: event2,
-		title: 'QUEEN Sensation',
-		bodyEng: (
-			<>
-				<p>The show must go on!</p>
-				<p>
-					Freddie Mercury will be in the Sports and Concerts Complex named after Karen Demirchyan.
-				</p>
-				<p>
-					Yes, yes you are not wrong. <b>On July 19, at 19:30,</b> the legendary Queen Sensation
-					band will present the best hits of the world-famous band with the best interpretation.
-				</p>
-			</>
-		),
-		bodyArm: (
-			<>
-				<p>Շոուն պետք է շարունակվի!</p>
-				<p>Ֆրեդի Մերկուրին կլինի Կարեն Դեմիրճյանի անվան մարզահամերգային համալիրում։</p>
-				<p>
-					Այո, այո, դուք չեք սխալվում։ <b>Հուլիսի 19-ին, ժամը 19:30</b> լեգենդար Queen Sensation
-					խումբը կներկայացնի աշխարհահռչակ խմբի լավագույն հիթերը՝ լավագույն մեկնաբանությամբ։
-				</p>
-			</>
-		),
-	},
-	{
-		image: event3,
-		title: 'Vivaldi DJ',
+		title: 'VIVALDI DJ',
 		bodyEng: (
 			<>
 				<p>
 					<b>Attention to all music lovers!</b>
 				</p>
 				<p>
-					New project for the first time. Experience a modern twist on Vivaldi's masterpiece, the
-					"Four Seasons" with our exclusive DJ remix set like never before on{' '}
-					<b>August 9, at 19:00!</b>
+					Experience a modern twist on Vivaldi's masterpiece, the "Four Seasons" with our exclusive
+					DJ remix set like never before on <b>August 9, at 19:00!</b>
 					<br />
 					We blend classical elegance with contemporary beats.
 				</p>
@@ -91,14 +59,42 @@ const events = [
 		bodyArm: (
 			<>
 				<p>
-					<b>Ուշադրություն բոլոր երաժշտասերներին.</b>
+					<b>Ուշադրություն բոլոր երաժշտասերներին</b>
 				</p>
 				<p>
-					Առաջին անգամ նոր նախագիծ. <b>Օգոստոսի 9-ին, ժամը 19:00-ին,</b> մեր բացառիկ դիջեյի
-					ռեմիքսով, ինչպես երբևէ, զգացեք ժամանակակից շրջադարձ Վիվալդիի գլուխգործոց «Չորս
-					սեզոններ»-ում: Մենք համատեղում ենք դասական նրբագեղությունը ժամանակակից բիթերի հետ:
+					Առաջին անգամ՝ ՆՈՐ ՆԱԽԱԳԻԾ. <b>Օգոստոսի 9-ին, ժամը 19:00-ին,</b> «Արամ Խաչատրյան»
+					կամերգասրահում հնարավություն ունեք զգալու Վիվալդիի գլուխգործոց՝ «Տարվա եղանակները» բացառիկ
+					DJ ռեմիքսով:
+					<br />
+					Մենք միաձուլել ենք դասական նրբագեղությունը ժամանակակից բիթերի հետ:
 				</p>
 				<p>Բաց մի թողեք</p>
+			</>
+		),
+	},
+	{
+		image: event3,
+		title: 'SONGS OF WHITNEY HUSTON featuring MASHA MNJOYAN',
+		bodyEng: (
+			<>
+				<p>
+					Legendary singer has made a historic performance. WHITNEY HOUSTON's immortal hits
+					performed by Masha Mnjoyan.
+				</p>
+				<p>
+					<b>October 26 | 19:00</b> at Aram Khachaturian Concert Hall
+				</p>
+			</>
+		),
+		bodyArm: (
+			<>
+				<p>
+					Աշխարհի լեգենդար տաղանդը կերտել է պատմություն. ՈՒԻԹՆԻ ՀՅՈՒՍԹՈՆԻ անմահ հիթերը Մաշա Մնջոյանի
+					կատարմամբ։
+				</p>
+				<p>
+					<b>Հոկտեմբերի 26-ին՝ ժամը 19:00-ին</b> Արամ Խաչատրյան համերգասրահում։
+				</p>
 			</>
 		),
 	},
