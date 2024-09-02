@@ -1,7 +1,8 @@
 import { Link, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-import logo from '../assets/logo.png';
+import Logo from './Logo.tsx';
+
 import eng from '../assets/eng.png';
 import arm from '../assets/arm.png';
 
@@ -11,11 +12,19 @@ const links = [
 		link: '/',
 	},
 	{
-		title: 'UPCOMING Events',
+		title: 'Upcoming Events',
 		link: '/events',
 	},
 	{
-		title: 'Contact Us',
+		title: 'Media library',
+		link: '/media',
+	},
+	{
+		title: 'our press',
+		link: '/press',
+	},
+	{
+		title: 'Contact us',
 		link: '/contact',
 	},
 ];
@@ -27,14 +36,16 @@ const Header = (): JSX.Element => {
 	return (
 		<header className="py-6 flex justify-between items-center container max-w-[1216px] mx-auto">
 			<Link to="/">
-				<img src={logo} alt="Logo" />
+				<Logo width={139} height={64} fill={'#1C1B1F'} />
 			</Link>
 
 			<nav>
 				<ul className="flex items-center gap-16">
 					{links.map((link) => (
 						<li key={link.title}>
-							<NavLink to={link.link}>{t(link.title)}</NavLink>
+							<NavLink to={link.link} className="text-xl">
+								{t(link.title).toUpperCase()}
+							</NavLink>
 						</li>
 					))}
 				</ul>

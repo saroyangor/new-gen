@@ -1,44 +1,17 @@
-import { useTranslation } from 'react-i18next';
-
 import gallery1 from '../assets/gallery1.png';
 import gallery2 from '../assets/gallery2.png';
 import gallery3 from '../assets/gallery3.png';
 import gallery4 from '../assets/gallery4.png';
-
-const gallery = [
-	{
-		image: gallery1,
-		title: 'Jazz Generation',
-	},
-	{
-		image: gallery2,
-		title: 'Jazz Generation #Christmas',
-	},
-	{
-		image: gallery3,
-		title: 'Malkhas Jazz',
-	},
-	{
-		image: gallery4,
-		title: 'Ethno Jazz',
-	},
-];
+import gallery5 from '../assets/gallery5.png';
 
 const Gallery = (): JSX.Element => {
-	const { t } = useTranslation();
-
 	return (
-		<article className="my-16">
-			<h2 className="font-semibold text-[40px] mb-16">{t('Gallery')}</h2>
-
-			<div className="flex gap-6 flex-wrap">
-				{gallery.map((g) => (
-					<div key={g.image}>
-						<img src={g.image} alt={g.title} />
-						<p className="text-2xl mt-6">{t(g.title)}</p>
-					</div>
-				))}
-			</div>
+		<article className="my-16 grid grid-cols-6">
+			<img src={gallery1} alt="gallery image 1" className="col-span-3" />
+			<img src={gallery2} alt="gallery image 2" className="col-span-3" />
+			<img src={gallery3} alt="gallery image 3" className="col-span-2" />
+			<img src={gallery4} alt="gallery image 4" className="col-span-2" />
+			<img src={gallery5} alt="gallery image 5" className="col-span-2" />
 		</article>
 	);
 };

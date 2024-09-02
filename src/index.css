@@ -1,3 +1,12 @@
 @tailwind base;
+@layer base {
+	html {
+		@apply font-bebasNeue;
+	}
+}
 @tailwind components;
 @tailwind utilities;
+
+.react-multi-carousel-track {
+	align-items: center;
+}
