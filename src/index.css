@@ -10,3 +10,16 @@
 .react-multi-carousel-track {
 	align-items: center;
 }
+
+.gallery-item:hover {
+	background: linear-gradient(180deg, rgba(21, 3, 56, 0) 0%, #150338 100%);
+}
+
+.gallery-item:hover h3 {
+	display: block;
+}
+
+.gallery-item img {
+	position: relative;
+	z-index: -1;
+}
