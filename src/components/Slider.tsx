@@ -57,6 +57,7 @@ const Slider = (): JSX.Element => {
 					renderButtonGroupOutside={true}
 					customButtonGroup={<ButtonGroup />}
 					infinite={true}
+					autoPlay={true}
 				>
 					{sliderImageUrl.map((imageUrl, index) => {
 						return (
