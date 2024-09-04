@@ -1,8 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import { MdOutlineMail } from 'react-icons/md';
-import { MdOutlinePhone } from 'react-icons/md';
+import { MdOutlineMail, MdOutlinePhone } from 'react-icons/md';
 
-import contact from '../assets/contact.png';
+import ContactLogo from '../components/ContactLogo.tsx';
 
 const ContactPage = (): JSX.Element => {
 	const { t } = useTranslation();
@@ -35,7 +34,7 @@ const ContactPage = (): JSX.Element => {
 					</a>
 				</div>
 			</div>
-			<img src={contact} alt="contact" />
+			<ContactLogo />
 		</article>
 	);
 };
