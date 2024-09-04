@@ -20,7 +20,7 @@ const links = [
 			},
 			{
 				name: 'Partners',
-				link: '#',
+				link: '/partners',
 			},
 		],
 	},
