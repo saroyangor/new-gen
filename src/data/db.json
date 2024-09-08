@@ -94,29 +94,29 @@
 		"firstLine": [
 			{
 				"id": 1,
-				"src": "src/assets/gallery1.png",
+				"src": "assets/gallery1.png",
 				"title": "New Generation"
 			},
 			{
 				"id": 2,
-				"src": "src/assets/gallery2.png",
+				"src": "assets/gallery2.png",
 				"title": "New Generation"
 			}
 		],
 		"secondLine": [
 			{
 				"id": 3,
-				"src": "src/assets/gallery3.png",
+				"src": "assets/gallery3.png",
 				"title": "New Generation"
 			},
 			{
 				"id": 4,
-				"src": "src/assets/gallery4.png",
+				"src": "assets/gallery4.png",
 				"title": "New Generation"
 			},
 			{
 				"id": 5,
-				"src": "src/assets/gallery5.png",
+				"src": "assets/gallery5.png",
 				"title": "New Generation"
 			}
 		]
@@ -144,15 +144,15 @@
 		}
 	],
 	"sliderImages": [
-		"src/assets/slider1.png",
-		"src/assets/slider2.png",
-		"src/assets/slider3.png",
-		"src/assets/slider4.png",
-		"src/assets/slider5.png"
+		"assets/slider1.png",
+		"assets/slider2.png",
+		"assets/slider3.png",
+		"assets/slider4.png",
+		"assets/slider5.png"
 	],
 	"events": [
 		{
-			"image": "src/assets/gallery3.png",
+			"image": "assets/gallery3.png",
 			"title": "Charles Aznavour 100",
 			"link": "#",
 			"body": [
@@ -162,7 +162,7 @@
 			]
 		},
 		{
-			"image": "src/assets/event1.jpg",
+			"image": "assets/event1.jpg",
 			"title": "QUEEN Sensation",
 			"link": "#",
 			"body": [
@@ -172,7 +172,7 @@
 			]
 		},
 		{
-			"image": "src/assets/event2.png",
+			"image": "assets/event2.png",
 			"title": "Vivaldi DJ",
 			"link": "#",
 			"body": [
@@ -186,7 +186,7 @@
 		{
 			"id": 1,
 			"title": "Throwback to Queen Sensation’s concert in Yerevan",
-			"poster": "../src/assets/mediaItemPoster.png",
+			"poster": "../assets/mediaItemPoster.png",
 			"texts": [
 				"Welcome to NEW GENERATION!",
 				"Our vision is to make the cultural life of Armenia more colorful and active by organizing unique and different projects.",
@@ -196,146 +196,146 @@
 			],
 			"videoURL": "https://www.youtube.com/embed/mzMdGQFJYXQ?si=64QbQr6ZBUTWjzh5",
 			"gallery": [
-				"../src/assets/mediaItemGallery1.png",
-				"../src/assets/mediaItemGallery2.png",
-				"../src/assets/mediaItemGallery3.png",
-				"../src/assets/mediaItemGallery4.png",
-				"../src/assets/mediaItemGallery5.png",
-				"../src/assets/mediaItemGallery6.png"
+				"../assets/mediaItemGallery1.png",
+				"../assets/mediaItemGallery2.png",
+				"../assets/mediaItemGallery3.png",
+				"../assets/mediaItemGallery4.png",
+				"../assets/mediaItemGallery5.png",
+				"../assets/mediaItemGallery6.png"
 			]
 		}
 	],
 	"partners": [
-		"src/assets/partner1.png",
-		"src/assets/partner2.png",
-		"src/assets/partner3.png",
-		"src/assets/partner4.png",
-		"src/assets/partner5.png",
-		"src/assets/partner6.png",
-		"src/assets/partner7.png",
-		"src/assets/partner8.png",
-		"src/assets/partner9.png",
-		"src/assets/partner10.png",
-		"src/assets/partner11.png"
+		"assets/partner1.png",
+		"assets/partner2.png",
+		"assets/partner3.png",
+		"assets/partner4.png",
+		"assets/partner5.png",
+		"assets/partner6.png",
+		"assets/partner7.png",
+		"assets/partner8.png",
+		"assets/partner9.png",
+		"assets/partner10.png",
+		"assets/partner11.png"
 	],
 	"press": [
 		{
 			"id": 1,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 2,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 3,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 4,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 5,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 6,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 7,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 8,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 9,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 10,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 11,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 12,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 13,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 14,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 15,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 16,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		},
 		{
 			"id": 17,
 			"title": "Lorem ipsum dolor sit amet",
 			"date": "June 26, 2024",
-			"image": "src/assets/press.png",
+			"image": "assets/press.png",
 			"link": "#"
 		}
 	]
