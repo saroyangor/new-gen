@@ -20,6 +20,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    "../../Library/Caches/JetBrains/WebStorm2024.1/javascript/typings/node/20.15.0/node_modules/@types/node/globals.d.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
