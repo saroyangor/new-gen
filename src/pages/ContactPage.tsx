@@ -8,13 +8,13 @@ const ContactPage = (): JSX.Element => {
 	const { t } = useTranslation();
 	return (
 		<article className="flex xl:gap-16 items-center xl:py-16 justify-between px-4 xl:px-0 my-6 xl:my-0">
-			<div className="flex flex-col gap-8">
+			<div className="flex flex-col gap-8 w-full">
 				<div className="flex flex-col gap-6">
 					<h2 className="xl:text-[40px] text-[32px]">{t('Contact us')}</h2>
 					<p className="font-roboto">{t('Subscribe to stay informed and connected')}</p>
 				</div>
 
-				<form className="flex flex-col items-start xl:w-[500px] w-[calc(100vw-32px)] gap-8">
+				<form className="flex flex-col items-start xl:w-[500px] w-full gap-8">
 					<input
 						type="email"
 						name="email"

@@ -11,8 +11,9 @@ const Event = ({ image, title, href, body }: IEventProps): JSX.Element => {
 	const { t } = useTranslation();
 
 	return (
-		<article className="flex gap-8 p-6 border border-black items-center">
-			<img src={image} alt={title} width={320} />
+		<article className="flex flex-col xl:flex-row xl:gap-8 gap-6 xl:px-6 px-4 py-6 border border-black items-center">
+			<img src={image} alt={title} className="w-80" />
+
 			<div className="flex flex-col gap-6 items-start">
 				<h3 className="font-medium text-[24px]">{t(title)}</h3>
 				<div className="flex flex-col gap-6">
@@ -22,7 +23,11 @@ const Event = ({ image, title, href, body }: IEventProps): JSX.Element => {
 						</p>
 					))}
 				</div>
-				<a target="_blank" href={href} className="bg-black text-white py-4 px-16 rounded-full">
+				<a
+					target="_blank"
+					href={href}
+					className="bg-black text-white text-center py-4 xl:px-16 w-full xl:w-fit rounded-full"
+				>
 					{t('Buy Tickets')}
 				</a>
 			</div>
