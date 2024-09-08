@@ -1,0 +1,342 @@
+{
+	"aboutTexts": [
+		{
+			"id": 1,
+			"title": "Welcome to NEW GENERATION!"
+		},
+		{
+			"id": 2,
+			"title": "Our vision is to make the cultural life of Armenia more colorful and active by organizing unique and different projects."
+		},
+		{
+			"id": 3,
+			"title": "The founder of the \"NEW GENERATION\" project is musician, docent of Arts Shmavon Grigoryan, who is known to music lovers for his many works, including Opera art in regions, Artsakh, border zones, \"Orchestra+\", \"Concert in the foyer\", \"The fairy tale is calling\", “Tete a Tete”, opera art in educational centers, etc. The main goal of the \"NEW GENERATION\" project is to make the cultural life of Armenia even more colorful and active by organizing unique concerts."
+		},
+		{
+			"id": 4,
+			"title": "At the upcoming projects, we will host famous, recognized and loved artists, promoting the development of culture, why not providing positive energy and unforgettable moments. The projects will be diverse and unrepeated."
+		},
+		{
+			"id": 5,
+			"title": "Well, stay tuned for information about our events."
+		}
+	],
+	"footerLinks": [
+		{
+			"title": "About",
+			"links": [
+				{
+					"name": "Our Story",
+					"link": "#"
+				},
+				{
+					"name": "Careers",
+					"link": "#"
+				},
+				{
+					"name": "Press",
+					"link": "#"
+				},
+				{
+					"name": "Partners",
+					"link": "/partners"
+				}
+			]
+		},
+		{
+			"title": "Resources",
+			"links": [
+				{
+					"name": "Return Policies",
+					"link": "#"
+				},
+				{
+					"name": "FAQs",
+					"link": "#"
+				},
+				{
+					"name": "Privacy Policy",
+					"link": "#"
+				}
+			]
+		},
+		{
+			"title": "Connect",
+			"links": [
+				{
+					"name": "Instagram",
+					"link": "#"
+				},
+				{
+					"name": "Facebook",
+					"link": "#"
+				},
+				{
+					"name": "Telegram",
+					"link": "#"
+				},
+				{
+					"name": "Threads",
+					"link": "#"
+				},
+				{
+					"name": "Linkedin",
+					"link": "#"
+				},
+				{
+					"name": "Youtube",
+					"link": "#"
+				}
+			]
+		}
+	],
+	"gallery": {
+		"firstLine": [
+			{
+				"id": 1,
+				"src": "src/assets/gallery1.png",
+				"title": "New Generation"
+			},
+			{
+				"id": 2,
+				"src": "src/assets/gallery2.png",
+				"title": "New Generation"
+			}
+		],
+		"secondLine": [
+			{
+				"id": 3,
+				"src": "src/assets/gallery3.png",
+				"title": "New Generation"
+			},
+			{
+				"id": 4,
+				"src": "src/assets/gallery4.png",
+				"title": "New Generation"
+			},
+			{
+				"id": 5,
+				"src": "src/assets/gallery5.png",
+				"title": "New Generation"
+			}
+		]
+	},
+	"headerLinks": [
+		{
+			"title": "Home",
+			"link": "/"
+		},
+		{
+			"title": "Upcoming Events",
+			"link": "/events"
+		},
+		{
+			"title": "Media library",
+			"link": "/media"
+		},
+		{
+			"title": "our press",
+			"link": "/press"
+		},
+		{
+			"title": "Contact us",
+			"link": "/contact"
+		}
+	],
+	"sliderImages": [
+		"src/assets/slider1.png",
+		"src/assets/slider2.png",
+		"src/assets/slider3.png",
+		"src/assets/slider4.png",
+		"src/assets/slider5.png"
+	],
+	"events": [
+		{
+			"image": "src/assets/gallery3.png",
+			"title": "Charles Aznavour 100",
+			"link": "#",
+			"body": [
+				"Jubilee concert dedicated to the world Armenian On June 8 at Aram Khachaturian Concert Hall will be presented \"CHARLES AZNAVOUR 100\" concert dedicated to the great chansonnier.",
+				"Soloist: Ghassan Yammine",
+				"Pop-Symphonic Orchestra of the Public Radio of RA: Artistic Director, People's Artist of RA Yervand Yerznkyan"
+			]
+		},
+		{
+			"image": "src/assets/event1.jpg",
+			"title": "QUEEN Sensation",
+			"link": "#",
+			"body": [
+				"The show must go on!",
+				"Freddie Mercury will be in the Sports and Concerts Complex named after Karen Demirchyan.",
+				"Yes, yes you are not wrong. On July 19, at 19:30, the legendary Queen Sensation band will present the best hits of the world-famous band with the best interpretation."
+			]
+		},
+		{
+			"image": "src/assets/event2.png",
+			"title": "Vivaldi DJ",
+			"link": "#",
+			"body": [
+				"Attention to all music lovers!",
+				"New project for the first time. Experience a modern twist on Vivaldi's masterpiece, the \"Four Seasons\" with our exclusive DJ remix set like never before on August 9, at 19:00!\nWe blend classical elegance with contemporary beats.",
+				"Don't miss out!"
+			]
+		}
+	],
+	"mediaItems": [
+		{
+			"id": 1,
+			"title": "Throwback to Queen Sensation’s concert in Yerevan",
+			"poster": "../src/assets/mediaItemPoster.png",
+			"texts": [
+				"Welcome to NEW GENERATION!",
+				"Our vision is to make the cultural life of Armenia more colorful and active by organizing unique and different projects.",
+				"The founder of the \"NEW GENERATION\" project is musician, docent of Arts Shmavon Grigoryan, who is known to music lovers for his many works, including Opera art in regions, Artsakh, border zones, \"Orchestra+\", \"Concert in the foyer\", \"The fairy tale is calling\", “Tete a Tete”, opera art in educational centers, etc.\n The main goal of the \"NEW GENERATION\" project is to make the cultural life of Armenia even more colorful and active by organizing unique concerts.",
+				"At the upcoming projects, we will host famous, recognized and loved artists, promoting the development of culture, why not providing positive energy and unforgettable moments. The projects will be diverse and unrepeated.",
+				"Well, stay tuned for information about our events."
+			],
+			"videoURL": "https://www.youtube.com/embed/mzMdGQFJYXQ?si=64QbQr6ZBUTWjzh5",
+			"gallery": [
+				"../src/assets/mediaItemGallery1.png",
+				"../src/assets/mediaItemGallery2.png",
+				"../src/assets/mediaItemGallery3.png",
+				"../src/assets/mediaItemGallery4.png",
+				"../src/assets/mediaItemGallery5.png",
+				"../src/assets/mediaItemGallery6.png"
+			]
+		}
+	],
+	"partners": [
+		"src/assets/partner1.png",
+		"src/assets/partner2.png",
+		"src/assets/partner3.png",
+		"src/assets/partner4.png",
+		"src/assets/partner5.png",
+		"src/assets/partner6.png",
+		"src/assets/partner7.png",
+		"src/assets/partner8.png",
+		"src/assets/partner9.png",
+		"src/assets/partner10.png",
+		"src/assets/partner11.png"
+	],
+	"press": [
+		{
+			"id": 1,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 2,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 3,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 4,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 5,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 6,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 7,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 8,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 9,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 10,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 11,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 12,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 13,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 14,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 15,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 16,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		},
+		{
+			"id": 17,
+			"title": "Lorem ipsum dolor sit amet",
+			"date": "June 26, 2024",
+			"image": "src/assets/press.png",
+			"link": "#"
+		}
+	]
+}

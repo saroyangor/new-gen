@@ -3,11 +3,9 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 
-import slider1 from '../assets/slider1.png';
-import slider2 from '../assets/slider2.png';
-import slider3 from '../assets/slider3.png';
-import slider4 from '../assets/slider4.png';
-import slider5 from '../assets/slider5.png';
+import db from '../data/db.json';
+
+const sliderImages = db.sliderImages;
 
 const responsive = {
 	desktop: {
@@ -26,23 +24,11 @@ const responsive = {
 		slidesToSlide: 1,
 	},
 };
-const sliderImageUrl = [
-	{
-		url: slider1,
-	},
-	{
-		url: slider2,
-	},
-	{
-		url: slider3,
-	},
-	{
-		url: slider4,
-	},
-	{
-		url: slider5,
-	},
-];
+
+const sliderImageUrl = sliderImages.map((image) => {
+	return { url: image };
+});
+
 const Slider = (): JSX.Element => {
 	const { t } = useTranslation();
 

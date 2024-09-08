@@ -1,76 +1,9 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+
 import Logo from './Logo.tsx';
 
-const links = [
-	{
-		title: 'About',
-		links: [
-			{
-				name: 'Our Story',
-				link: '#',
-			},
-			{
-				name: 'Careers',
-				link: '#',
-			},
-			{
-				name: 'Press',
-				link: '#',
-			},
-			{
-				name: 'Partners',
-				link: '/partners',
-			},
-		],
-	},
-	{
-		title: 'Resources',
-		links: [
-			{
-				name: 'Return Policies',
-				link: '#',
-			},
-			{
-				name: 'FAQs',
-				link: '#',
-			},
-			{
-				name: 'Privacy Policy',
-				link: '#',
-			},
-		],
-	},
-	{
-		title: 'Connect',
-		links: [
-			{
-				name: 'Instagram',
-				link: '#',
-			},
-			{
-				name: 'Facebook',
-				link: '#',
-			},
-			{
-				name: 'Telegram',
-				link: '#',
-			},
-			{
-				name: 'Threads',
-				link: '#',
-			},
-			{
-				name: 'Linkedin',
-				link: '#',
-			},
-			{
-				name: 'Youtube',
-				link: '#',
-			},
-		],
-	},
-];
+import { footerLinks as links } from '../data/db.json';
 
 const Footer = (): JSX.Element => {
 	const { t } = useTranslation();
@@ -86,7 +19,9 @@ const Footer = (): JSX.Element => {
 							<h3 className="font-semibold text-2xl mb-4">{t(link.title)}</h3>
 							{link.links.map((link) => (
 								<li className="py-2 font-roboto" key={link.name}>
-									<Link to={link.link}>{t(link.name)}</Link>
+									<Link onClick={() => window.scrollTo(0, 0)} to={link.link}>
+										{t(link.name)}
+									</Link>
 								</li>
 							))}
 						</ul>

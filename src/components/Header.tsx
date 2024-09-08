@@ -5,29 +5,8 @@ import Logo from './Logo.tsx';
 
 import eng from '../assets/eng.png';
 import arm from '../assets/arm.png';
+import { headerLinks as links } from '../data/db.json';
 
-const links = [
-	{
-		title: 'Home',
-		link: '/',
-	},
-	{
-		title: 'Upcoming Events',
-		link: '/events',
-	},
-	{
-		title: 'Media library',
-		link: '/media',
-	},
-	{
-		title: 'our press',
-		link: '/press',
-	},
-	{
-		title: 'Contact us',
-		link: '/contact',
-	},
-];
 const languages = ['eng', 'arm'];
 
 const Header = (): JSX.Element => {

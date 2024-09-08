@@ -1,30 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-const texts = [
-	{
-		id: 1,
-		title: 'Welcome to NEW GENERATION!',
-	},
-	{
-		id: 2,
-		title:
-			'Our vision is to make the cultural life of Armenia more colorful and active by organizing unique and different projects.',
-	},
-	{
-		id: 3,
-		title:
-			'The founder of the "NEW GENERATION" project is musician, docent of Arts Shmavon Grigoryan, who is known to music lovers for his many works, including Opera art in regions, Artsakh, border zones, "Orchestra+", "Concert in the foyer", "The fairy tale is calling", “Tete a Tete”, opera art in educational centers, etc. The main goal of the "NEW GENERATION" project is to make the cultural life of Armenia even more colorful and active by organizing unique concerts.',
-	},
-	{
-		id: 4,
-		title:
-			'At the upcoming projects, we will host famous, recognized and loved artists, promoting the development of culture, why not providing positive energy and unforgettable moments. The projects will be diverse and unrepeated.',
-	},
-	{
-		id: 5,
-		title: 'Well, stay tuned for information about our events.',
-	},
-];
+import { aboutTexts as texts } from '../data/db.json';
 
 const About = (): JSX.Element => {
 	const { t } = useTranslation();
