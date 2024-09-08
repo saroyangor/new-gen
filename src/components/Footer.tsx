@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { isMobile } from 'react-device-detect';
 
 import Logo from './Logo.tsx';
 
@@ -9,21 +10,23 @@ const Footer = (): JSX.Element => {
 	const { t } = useTranslation();
 
 	return (
-		<footer className="bg-black text-white py-16">
-			<div className="container max-w-[1216px] mx-auto flex justify-between items-start gap-[272px]">
-				<Logo width={224} height={104} fill={'white'} />
+		<footer className="bg-black text-white xl:py-16 py-8 xl:px-0 px-4">
+			<div className="container xl:max-w-[1216px] mx-auto flex flex-col xl:flex-row justify-between items-start xl:gap-[272px] gap-8">
+				<Logo width={isMobile ? 183 : 224} height={isMobile ? 84 : 104} fill={'white'} />
 
-				<section className="flex justify-between flex-grow">
+				<section className="flex flex-col xl:flex-row justify-between flex-grow">
 					{links.map((link) => (
-						<ul key={link.title}>
-							<h3 className="font-semibold text-2xl mb-4">{t(link.title)}</h3>
-							{link.links.map((link) => (
-								<li className="py-2 font-roboto" key={link.name}>
-									<Link onClick={() => window.scrollTo(0, 0)} to={link.link}>
-										{t(link.name)}
-									</Link>
-								</li>
-							))}
+						<ul key={link.title} className="mb-8 xl:mb-0">
+							<h3 className="font-semibold text-2xl mb-6 xl:mb-4">{t(link.title)}</h3>
+							<div className="flex flex-col gap-4 xl:gap-0">
+								{link.links.map((link) => (
+									<li className="xl:py-2 font-roboto" key={link.name}>
+										<Link onClick={() => window.scrollTo(0, 0)} to={link.link}>
+											{t(link.name)}
+										</Link>
+									</li>
+								))}
+							</div>
 						</ul>
 					))}
 				</section>

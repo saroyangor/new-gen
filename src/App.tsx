@@ -14,7 +14,7 @@ const App = (): JSX.Element => {
 	return (
 		<div>
 			<Header />
-			<main className="container max-w-[1216px] mx-auto">
+			<main className="container xl:max-w-[1216px] mx-auto">
 				<Routes>
 					<Route path="/" element={<HomePage />} />
 					<Route path="/events" element={<EventsPage />} />

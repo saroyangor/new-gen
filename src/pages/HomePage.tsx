@@ -5,7 +5,7 @@ import Slider from '../components/Slider.tsx';
 
 const HomePage = (): JSX.Element => {
 	return (
-		<article className="mt-32">
+		<article className="xl:mt-16 mt-6">
 			<Tickets />
 			<Gallery />
 			<About />

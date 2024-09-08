@@ -2,7 +2,7 @@ import { partners } from '../data/db.json';
 
 const PartnersPage = (): JSX.Element => {
 	return (
-		<article className="my-16 container mx-auto">
+		<article className="my-16 container mx-auto px-4 xl:px-0">
 			<h1 className="text-[64px] mb-16">Our partners</h1>
 
 			<section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">

@@ -1,11 +1,13 @@
 import { Link, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { isMobile } from 'react-device-detect';
 
 import Logo from './Logo.tsx';
 
-import eng from '../assets/eng.png';
-import arm from '../assets/arm.png';
 import { headerLinks as links } from '../data/db.json';
+import MobileNav from './MobileNav.tsx';
+import UsaFlag from './UsaFlag.tsx';
+import ArmFlag from './ArmFlag.tsx';
 
 const languages = ['eng', 'arm'];
 
@@ -13,17 +15,17 @@ const Header = (): JSX.Element => {
 	const { t, i18n } = useTranslation();
 
 	return (
-		<header className="py-6 flex justify-between items-center container max-w-[1216px] mx-auto">
+		<header className="p-4 xl:py-6 flex justify-between items-center container xl:max-w-[1216px] mx-auto">
 			<Link to="/">
-				<Logo width={139} height={64} fill={'#1C1B1F'} />
+				<Logo width={isMobile ? 69 : 139} height={isMobile ? 32 : 64} fill={'#1C1B1F'} />
 			</Link>
 
 			<nav>
-				<ul className="flex items-center gap-16">
+				<ul className="hidden xl:flex items-center gap-16">
 					{links.map((link) => (
 						<li key={link.title}>
 							<NavLink to={link.link} className="text-xl">
-								{t(link.title).toUpperCase()}
+								{t(link.title)}
 							</NavLink>
 						</li>
 					))}
@@ -31,14 +33,17 @@ const Header = (): JSX.Element => {
 			</nav>
 
 			<div className="languages">
-				<ul className="flex items-center gap-6">
+				<ul className="flex items-center xl:gap-6 gap-3">
 					{languages.map((language) => (
-						<li key={language}>
+						<li key={language} className="h-6">
 							<button onClick={() => i18n.changeLanguage(language)}>
-								<img src={language === 'eng' ? eng : arm} alt={language} />
+								{language === 'eng' ? <UsaFlag /> : <ArmFlag />}
 							</button>
 						</li>
 					))}
+					<li className="xl:hidden h-6 ml-3">
+						<MobileNav />
+					</li>
 				</ul>
 			</div>
 		</header>

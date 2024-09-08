@@ -14,13 +14,18 @@ const responsive = {
 		slidesToSlide: 1,
 	},
 	tablet: {
-		breakpoint: { max: 1024, min: 768 },
+		breakpoint: { max: 1280, min: 768 },
 		items: 3,
 		slidesToSlide: 1,
 	},
 	mobile: {
-		breakpoint: { max: 767, min: 464 },
+		breakpoint: { max: 767, min: 640 },
 		items: 2,
+		slidesToSlide: 1,
+	},
+	smMobile: {
+		breakpoint: { max: 639, min: 0 },
+		items: 1,
 		slidesToSlide: 1,
 	},
 };
@@ -33,10 +38,10 @@ const Slider = (): JSX.Element => {
 	const { t } = useTranslation();
 
 	return (
-		<article className="my-16">
-			<h2 className="font-semibold text-[40px] mb-16">{t('Our Partners')}</h2>
+		<article className="xl:my-16 my-6 px-4 xl:px-0">
+			<h2 className="xl:text-[40px] text-[32px] xl:mb-16 mb-6">{t('Our Partners')}</h2>
 
-			<div className="w-[85%] mx-auto relative flex flex-col-reverse">
+			<div className="w-[80%] mx-auto relative flex flex-col-reverse left-[10%] md:left-[5%] xl:left-0">
 				<Carousel
 					responsive={responsive}
 					arrows={false}
@@ -47,7 +52,7 @@ const Slider = (): JSX.Element => {
 				>
 					{sliderImageUrl.map((imageUrl, index) => {
 						return (
-							<div className="overflow-hidden" key={index}>
+							<div className="overflow-hidden relative left-[10%] sm:left-0" key={index}>
 								<div>
 									<img src={imageUrl.url} alt="movie" />
 								</div>
@@ -63,7 +68,7 @@ export default Slider;
 
 const ButtonGroup = ({ next, previous }: any) => {
 	return (
-		<div className="flex justify-between items-center w-[110%] relative right-20 top-20">
+		<div className="flex justify-between items-center sm:w-[110%] w-[120%] relative right-20 top-20">
 			<button className="block" onClick={() => previous()}>
 				<BsChevronLeft size={32} />
 			</button>
