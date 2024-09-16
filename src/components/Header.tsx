@@ -24,7 +24,7 @@ const Header = (): JSX.Element => {
 				<ul className="hidden xl:flex items-center gap-16">
 					{links.map((link) => (
 						<li key={link.title}>
-							<NavLink to={link.link} className="text-xl">
+							<NavLink to={link.link} className={i18n.language === 'eng' ? 'text-xl' : 'text-base'}>
 								{t(link.title)}
 							</NavLink>
 						</li>

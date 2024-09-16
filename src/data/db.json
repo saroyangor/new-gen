@@ -26,16 +26,16 @@
 			"title": "About",
 			"links": [
 				{
-					"name": "Our Story",
-					"link": "#"
+					"name": "About Us",
+					"link": "/"
 				},
 				{
 					"name": "Careers",
-					"link": "#"
+					"link": "https://linkedin.com/company/new-generation-project"
 				},
 				{
 					"name": "Press",
-					"link": "#"
+					"link": "/press"
 				},
 				{
 					"name": "Partners",
@@ -65,27 +65,27 @@
 			"links": [
 				{
 					"name": "Instagram",
-					"link": "#"
+					"link": "https://www.instagram.com/newgeneration_project_arm_?igsh=cjR1emljNnpraXhj\n\n"
 				},
 				{
 					"name": "Facebook",
-					"link": "#"
+					"link": "https://www.facebook.com/share/VQiuAu1KfCHbFwcu/?mibextid=LQQJ4d\n"
 				},
 				{
 					"name": "Telegram",
-					"link": "#"
+					"link": "https://t.me/armnewgenerationproject\n"
 				},
 				{
 					"name": "Threads",
-					"link": "#"
+					"link": "https://www.threads.net/@newgeneration_project_arm_?hl=en\n"
 				},
 				{
 					"name": "Linkedin",
-					"link": "#"
+					"link": "https://linkedin.com/company/new-generation-project"
 				},
 				{
 					"name": "Youtube",
-					"link": "#"
+					"link": "https://www.youtube.com/channel/UCDfD--jZKRKFYybwQrTJKXg/videos\n"
 				}
 			]
 		}
@@ -100,24 +100,24 @@
 			{
 				"id": 2,
 				"src": "assets/gallery2.png",
-				"title": "New Generation"
+				"title": "Queen Sensation"
 			}
 		],
 		"secondLine": [
 			{
 				"id": 3,
 				"src": "assets/gallery3.png",
-				"title": "New Generation"
+				"title": "Charles Aznavour"
 			},
 			{
 				"id": 4,
 				"src": "assets/gallery4.png",
-				"title": "New Generation"
+				"title": "Vivaldi DJ"
 			},
 			{
 				"id": 5,
 				"src": "assets/gallery5.png",
-				"title": "New Generation"
+				"title": "Malkhas Jazz"
 			}
 		]
 	},

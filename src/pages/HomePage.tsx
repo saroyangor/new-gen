@@ -3,12 +3,12 @@ import Gallery from '../components/Gallery.tsx';
 import About from '../components/About.tsx';
 import Slider from '../components/Slider.tsx';
 
-const HomePage = (): JSX.Element => {
+const HomePage = ({ aboutRef }: { aboutRef: React.RefObject<HTMLDivElement> }): JSX.Element => {
 	return (
 		<article className="xl:mt-16 mt-6">
 			<Tickets />
-			<Gallery />
-			<About />
+			<Gallery aboutRef={aboutRef} />
+			<About aboutRef={aboutRef} />
 			<Slider />
 		</article>
 	);

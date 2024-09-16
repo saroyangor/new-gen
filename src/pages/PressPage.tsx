@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { isMobile } from 'react-device-detect';
+import { useTranslation } from 'react-i18next';
 
 import { press } from '../data/db.json';
 
 const PressPage = (): JSX.Element => {
+	const { t } = useTranslation();
 	const [page, setPage] = useState(1);
 
 	const perPage = isMobile ? 6 : 12;
@@ -12,7 +14,7 @@ const PressPage = (): JSX.Element => {
 
 	return (
 		<article className="xl:my-16 my-6 px-4 xl:px-0">
-			<h1 className="xl:text-[64px] text-[40px] xl:mb-16 mb-6">Our Press</h1>
+			<h1 className="xl:text-[64px] text-[40px] xl:mb-16 mb-6">{t('our press')}</h1>
 			<section className="flex xl:gap-y-7 gap-y-6 xl:gap-x-11 justify-center lg:justify-around xl:justify-start flex-wrap">
 				{press.slice((page - 1) * perPage, page * perPage).map((p) => (
 					<a key={p.id} target="_blank" href={p.link} className="block">
