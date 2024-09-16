@@ -40,7 +40,7 @@ const ContactPage = (): JSX.Element => {
 
 					setTimeout(() => {
 						hideAlert(false);
-					}, [3000]);
+					}, 3000);
 				},
 				(error) => {
 					setLoading(false);

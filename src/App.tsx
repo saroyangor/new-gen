@@ -21,7 +21,7 @@ const App = (): JSX.Element => {
 				<Routes>
 					<Route path="/" element={<HomePage aboutRef={aboutRef} />} />
 					<Route path="/events" element={<EventsPage />} />
-					<Route path="/media" element={<MediaPage />} />
+					<Route path="/media" element={<MediaPage aboutRef={aboutRef} />} />
 					<Route path="/media/:id" element={<MediaItemPage />} />
 					<Route path="/press" element={<PressPage />} />
 					<Route path="/partners" element={<PartnersPage />} />
